@@ -1,0 +1,451 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.mainContainer{
+    width: 100%;
+    height: 70vh;
+    background-image: url(./IN-en-20231002-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+
+    
+}
+
+.navbar{
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    height: 120%;
+}
+
+.logoimg{
+    height: 100%;
+    width: 100%;
+}
+
+.navOption{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navLang{
+    color: white;
+    background-color: transparent;
+    border-radius: 10%;
+    padding: 2px 15px 2px 15px;
+    height: 45px;
+    outline: auto;
+    font-size: x-large;
+
+}
+
+.signin{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    font-size: x-large;
+    background-color: #e50914;
+    border-color: transparent;
+    border-radius: 2px;
+
+}
+
+
+
+.navButtons{
+    height: 100%;
+    /* border: 3px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    
+    
+     }
+    
+    .launguageDropdown{
+        height: 60%;
+        background-color: transparent;
+        color: white;
+        font-size: 2rem;
+        width: 65%;
+        padding-left: 2%;
+        border-radius: 7%;
+    }
+    
+    .signInButton{
+        height: 60%;
+        width:auto;
+        background-color: #e50914;
+        color: white;
+        font-size: 2rem;
+        padding: 0.5%;
+        margin-left: 4%;
+        border-radius: 10%;
+        border: none;
+    }
+    
+    .part{
+        color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 85%;
+    font-size: 2rem;
+    text-align: center;
+    
+    }
+    
+    #emailholder{
+        background-color: transparent;
+        color: white;
+        font-size: 1.2rem;
+        padding-left: 0.7%;
+        height: 80%;
+        width: 22%;
+        outline: none;
+    }
+    .emailcontainer{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        width: 100%;
+        flex-direction: row;
+        height: 10%;
+    
+    }
+    #emailholder::placeholder{
+        color: white;
+        opacity: 1;
+    }
+    #getstarted{
+        background-color: #e50914;
+    color: white;
+    font-size: 0.8rem;
+    margin-left: 1%;
+    width: 8%;
+    height: 80%;
+    border: none;
+    font-weight: 900;
+    }
+    .section{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        width: 100%;
+        border-bottom: 1vh solid rgb(73, 72, 72);
+    }
+    
+    .textsection{
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        align-items: start;
+    }
+    .imgsection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .faq{
+        height: 90vh;
+        width: 100%;
+        background-color: black;
+    display: flex;
+    justify-content: center; 
+     align-items: center;
+     flex-direction: column;
+     border-bottom: 1.4vh solid rgb(73, 72, 72);
+    
+    
+    }
+    .caption{
+        color: white;
+        font-size: 3rem;
+        font-weight: 900;
+        display: flex;
+        justify-content: start;
+        margin-bottom: 1%;
+        
+    }
+    .question{
+        color: white;
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 1.5%;
+        
+    }
+    .faqbox{
+        background-color: #2d2d2d;
+        margin-bottom: 1%;
+        width: 50%;
+        height: 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 2%;
+    padding-right: 2%;
+       
+    }* {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    .maincontainer{
+     width: 100%;
+     height: 75vh;
+     border-bottom: 1.4vh solid grey;
+     background-image: radial-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("IN-en-20231009-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-repeat:  no-repeat;
+    background-size: cover;
+    }
+    .navcontainer {
+        /* border: 2px solid white; */
+        width: 100%;
+        height: 15%;
+        display: flex;
+    
+    }
+    .logocontainer{
+        height: 100%;
+        width: 30%;
+        /* border: 2px solid white; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+            margin-left: 10%;
+    } .navbuttons {
+        height: 100%;
+        /* border: 2px solid white; */
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
+    }
+    .languagedropdown{
+         background-color: transparent;
+         color: white;
+         height: 60%;
+         width: 15%;
+          font-size: 2rem;
+          padding-left: 2%;
+          border-radius: 7%;
+    
+    }
+    .siginbutton{
+        height: 60%;
+        width: auto;
+         background-color: #e50914;
+         color:white ;
+         font-size: 2rem;
+          margin-left: 1%;
+          padding: 0.5%;
+          border-radius: 10%;
+         border: none;
+    }
+     .part{
+        color: wheat;
+         display: flex;
+         justify-content: center;
+         align-items: center ;
+          flex-direction: column;
+          height: 85%;
+          font-size: 2rem;
+          text-align: center;
+     }
+     .emailcontainer{
+        display:flex;
+        justify-content: center;
+        align-items: end;
+        width: 100%;
+     }
+    
+    #emailholder{
+        background-color: transparent;
+        color: white;
+        width: 20%;
+        height: 70;
+        padding-left: 0.7%;
+        font-size: 1.2rem;
+        outline: none;
+    }
+    #emailholder::placeholder{
+        color: white;
+        opacity: 1;
+    }
+    #GetStarted{
+        background-color: #e50914;
+        color: white;
+        font-size: 1rem;
+        height: 3.7vh;
+        width: 9%;
+        margin-left: 1%;
+    border: none;
+    font-weight: 900;
+    border-radius: 1vh;
+    }
+    .section{
+        background-color: black;
+        width: 100%;
+        height: 60vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1.4vh solid rgb(73,72);
+        border-bottom: 1.4vh solid grey;
+    }
+    .textsection{
+       height: 100%;
+       width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8rem;
+    
+    }
+    .imgsection{
+        height: 100%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section1{
+        background-color: black;
+        width: 100%;
+        height: 60vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1.4vh solid rgb(73,72);
+        border-bottom: 1.4vh solid grey;
+    
+    }
+    .textsection1 {
+        height: 100%;
+        width: 40%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         font-size: 1.8rem;
+    } 
+    .imgsection1
+    {
+        height: 100%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .watcheverywhere{    background-color: black;
+        width: 100%;
+        height: 60vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1.4vh solid rgb(73,72);
+        border-bottom: 1.4vh solid grey;
+    }
+    .textwatcheverywhere{ height: 100%;
+    width: 40%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-size: 1.8rem;
+    } 
+    .imgwatcheverywhere{ height: 100%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+        .children{background-color: black;
+            width: 100%;
+            height: 60vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1.4vh solid rgb(73,72);
+            border-bottom: 1.4vh solid grey;}
+            .textchildren{height: 100%;
+                width: 40%;
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+                 align-items: center;
+                 font-size: 1.8rem;}
+                 .imgchildren{ height: 100%;
+                    width: 40%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;}
+                    .faq{
+                        height: 90vh;
+                        width: 100%;
+                        background-color: black;
+                    display: flex;
+                    justify-content: center; 
+                     align-items: center;
+                     flex-direction: column;
+                     border-bottom: 1.4vh solid rgb(73, 72, 72);
+                    
+                    
+                    }
+                    .caption{
+                        color: white;
+                        font-size: 3rem;
+                        font-weight: 900;
+                        display: flex;
+                        justify-content: start;
+                        margin-bottom: 1%;
+                        
+                    }
+                    .question{
+                        color: white;
+                        height: 50%;
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        margin-bottom: 1.5%;
+                        
+                    }
+                    .faqbox{
+                        background-color: #2d2d2d;
+                        margin-bottom: 1%;
+                        width: 50%;
+                        height: 15%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding-left: 2%;
+                    padding-right: 2%;
+                       
+                    }
